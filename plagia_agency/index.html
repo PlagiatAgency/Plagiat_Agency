@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiat Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        .header img {
+            width: 60px;
+            height: 60px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* Présentation */
+        .intro {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        /* Services */
+        .services {
+            padding: 50px 20px;
+            background-color: white;
+            text-align: center;
+        }
+        .services h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .service-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service-card {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Section Éligibilité */
+        .eligibility {
+            background-color: #eaeaea;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .eligibility-title h2 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .eligibility-box {
+            background: white;
+            border: 2px solid #2575fc;
+            border-radius: 10px;
+            padding: 20px;
+            width: 50%;
+            margin: auto;
+            text-align: left;
+        }
+        .eligibility-box ul {
+            list-style: none;
+            padding: 0;
+        }
+        .eligibility-box ul li {
+            font-size: 1.2em;
+            padding: 5px 0;
+        }
+        .eligibility-box ul li::before {
+            content: "⭐ ";
+            color: #2575fc;
+        }
+
+        /* Bouton "Rejoignez-nous" */
+        .join-button {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .join-button a {
+            background-color: #2575fc;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .join-button a:hover {
+            background-color: #6a11cb;
+        }
+
+        /* Section Qui-suis-je ? (Ajoutée juste avant le footer) */
+        .who-am-i {
+            background-color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 1.5em;
+            border-top: 2px solid #2575fc;
+            margin-top: 50px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: rgb(51, 51, 51);
+            color: rgb(236, 236, 236);
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête avec Logo + Titre -->
+    <div class="header">
+        <img src="image/logo.png" alt="Logo">
+        <h1>Plagiat Agency</h1>
+    </div>
+
+    <!-- Présentation -->
+    <div class="intro">
+        <p>Propulsez votre carrière de directeur d'agence TikTok avec notre expertise en plagiat dans tout domaine.</p>
+    </div>
+
+    <!-- Services -->
+    <div class="services">
+        <h2>Nos services de Plagiat</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Plagiat de GTAV</h3>
+                <p>Apprendre à plagier les mêmes actions que d'autres streamers.</p>
+            </div>
+            <div class="service-card">
+                <h3>Plagiat Minecraft</h3>
+                <p>Apprendre à plagier les autres maps Minecraft qui fonctionnent bien.</p>
+            </div>
+            <div class="service-card">
+                <h3>Plagiat Roblox</h3>
+                <p>Apprendre à plagier une map Roblox.</p>
+            </div>
+            <div class="service-card">
+                <h3>Plagiat Autres jeux</h3>
+                <p>Apprendre à plagier d'autres jeux et d'autres maps.</p>
+            </div>
+            <div class="service-card">
+                <h3>Formation Plagiat</h3>
+                <p>Coaching personnalisé pour améliorer vos performances en plagiat.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bouton "Rejoignez-nous" -->
+    <div class="join-button">
+        <a href="https://www.tiktok.com/@plagia.agency?is_from_webapp=1&sender_device=pc">Rejoignez-nous</a>
+    </div>
+
+    <!-- Section Suis-je éligible ? -->
+    <div class="eligibility">
+        <div class="eligibility-title">
+            <h2>Suis-je éligible ?</h2>
+        </div>
+        <p>Découvrez si vous pouvez rejoindre notre agence.</p>
+        <div class="eligibility-box">
+            <ul>
+                <li>Habiter dans toute l'Europe</li>
+                <li>Avoir plus de 18 ans</li>
+                <li>Être actif sur tous les LIVES toute la semaine</li>
+                <li>Suivre les règles de l'agence et de TikTok dans le respect</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Section Qui-suis-je ? (Juste avant le footer) -->
+    <div class="who-am-i">
+        <h2>Qui-suis-je ?</h2>
+        <p>Un jour peut-être tu le seras !.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Plagiat Agency. Tous droits réservés.</p>
+    </div>
+
+</body>
+</html>
